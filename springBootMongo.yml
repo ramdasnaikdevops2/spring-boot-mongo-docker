@@ -23,7 +23,7 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: 7989840500/spring-jenkins-k8s
+      - image: 7989840500/spring-jenkins-k8s:latest
         name: springboot
         ports:
         - containerPort: 8080  
